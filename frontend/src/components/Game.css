@@ -1,0 +1,29 @@
+/* Game.css */
+
+.game-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.board-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cell-button {
+    width: 100px; /* Adjust the width of each cell */
+    height: 100px; /* Adjust the height of each cell */
+    font-size: 24px; /* Adjust the font size of the text inside the cell */
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.cell-button:hover {
+    background-color: #f0f0f0;
+}
